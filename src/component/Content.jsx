@@ -1,6 +1,6 @@
 import React from "react";
 
-const Content = ({isDark}) => {
+const Content = () => {
     return (
         <div
             className="content"

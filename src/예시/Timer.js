@@ -9,7 +9,7 @@ const Timer = (props) => {
         return () => {
             clearInterval(timer);
             console.log("타이머 종료!");
-        }
+        } // useEffect 함수를 unmount 할 때. 정리하고싶을 때 return에 함수를 넣으면 됨
     }, []);
 
     return(
